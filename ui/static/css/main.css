@@ -1,0 +1,60 @@
+
+body {
+    text-align: center;
+    background-color:rgb(70, 194, 8);
+  }
+  
+  
+  h1 {
+    font-size: 50px;
+    color:rgb(255, 255, 255)
+  }
+  
+
+  
+  textarea {
+    resize: none;
+    display: flex;
+    max-width: 90%;
+    height: 5rem;
+    margin: auto;
+    border-radius: 10px;
+    border-color: black;
+  
+  }
+  .input {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+  }
+  .output{
+    margin-top: 15px;
+  }
+  .result {
+    margin: auto;
+    height: 250px;
+    border: 3px solid rgb(18, 11, 11); 
+    background-color: rgb(255, 255, 255); 
+    border-radius: 20px;
+    font-size: 0.7rem;
+    font-weight: 800;
+    overflow: scroll;   
+    padding-left : 10px;
+    max-width: 50%;
+    
+  }
+  
+  .select, .submit{
+    margin-top: 10px;
+    height: 22px;
+    vertical-align: bottom;
+  }
+  .submit{
+    width: 85px;
+    margin-left: 10px;
+  
+  }
+
+
+
